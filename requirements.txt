@@ -1,0 +1,12 @@
+pandas
+jupyter
+matplotlib
+scikit-learn
+seaborn
+plotly
+cufflinks
+xgboost
+numpy
+chart_studio
+joblib
+
