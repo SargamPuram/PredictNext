@@ -102,6 +102,9 @@ curl -X POST http://127.0.0.1:5000/predict-next-purchase -H "Content-Type: appli
 ## Contributions 
 We welcome contributions! Please fork this repository and submit a pull request with detailed changes. Ensure all new features are covered by tests.
 
+## Report
+https://www.notion.so/AI-Research-Intern-Assignment-1-Predict-Next-Purchase-Date-using-ML-Report-155cbfa620bf80ce8101db2391d1e110?pvs=4
+
 
 
 
