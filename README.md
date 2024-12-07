@@ -82,7 +82,7 @@ python src/app.py
 - Pickle: For saving and loading processed data
 
 ## Contributions 
-Feel free to raise a PR for any improvements.
+We welcome contributions! Please fork this repository and submit a pull request with detailed changes. Ensure all new features are covered by tests.
 
 
 
