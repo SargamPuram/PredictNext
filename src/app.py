@@ -6,7 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Load the trained model
-rf_model = joblib.load('src/rf_model.pkl')
+rf_model = joblib.load('src/xgb_model.pkl')
 
 # Define current date for recency calculation (hardcoded or dynamically fetched)
 current_date = pd.to_datetime('2024-12-07')  # Replace with today's date if needed
