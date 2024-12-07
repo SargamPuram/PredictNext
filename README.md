@@ -74,6 +74,24 @@ Before running the project, ensure you have the following installed:
 python src/app.py
 ```
 
+## Sample cURL POST Request
+```
+curl -X POST http://127.0.0.1:5000/predict-next-purchase -H "Content-Type: application/json" -d '{
+   "CustomerID": 12345,
+   "unit_price": 25.5,
+   "quantity": 2,
+   "invoice_date": "12/01/2024"
+}
+```
+#Sample Response
+```
+{
+  "CustomerID": 12345,
+  "predicted_next_purchase_date": "2025-10-28"
+}
+
+```
+
 ## Technologies Used
 - Pandas: For data manipulation and analysis
 - Matplotlib: For data visualization
