@@ -9,7 +9,7 @@ app = Flask(__name__)
 rf_model = joblib.load('src/xgb_model.pkl')
 
 # Define current date for recency calculation (hardcoded or dynamically fetched)
-current_date = pd.to_datetime('2024-12-07')  # Replace with today's date if needed
+current_date = pd.to_datetime('2024-12-07') 
 
 @app.route('/predict-next-purchase', methods=['POST'])
 def predict_next_purchase():
@@ -28,8 +28,8 @@ def predict_next_purchase():
     # Calculate Recency (Days since the last purchase)
     recency = (current_date - invoice_date).days
     
-    # Frequency: You can hardcode the frequency or get it from a database for real use cases
-    frequency = 10  # Example: Assuming the customer made 10 purchases in the past
+    # Frequency: Hardcoding it for simplicity
+    frequency = 10  
 
     # Revenue: Calculate revenue from the given unit_price and quantity
     revenue = unit_price * quantity
